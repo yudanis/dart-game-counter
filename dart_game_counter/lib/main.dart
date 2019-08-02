@@ -1,3 +1,4 @@
+import 'package:dart_game_counter/score_board.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+    //  home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: ScoreBoard(),
     );
   }
 }
